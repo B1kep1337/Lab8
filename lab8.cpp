@@ -70,7 +70,8 @@ int main()
 	printf("\n¬ведите начальную вершину:\n");
 
 	vis = (int*)malloc(size*sizeof(int));
-	
+	for (int i=0; i<size; i++) vis[i]=0;
+
 	int s = 1;
 	scanf("%d",&s);
 	printf("\nќбход графа:\n");
